@@ -2,6 +2,8 @@
 
 API Testing Example
 
+Inspired by: https://github.com/intuit/karate/tree/master/karate-junit5
+
 ## Setup
 
 Some IntelliJ-IDEA plugins you might want to install:
