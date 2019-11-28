@@ -9,11 +9,10 @@ Some IntelliJ-IDEA plugins you might want to install:
 * Cucumber For Java
 * .ignore
 * Gherkin
-* JS GraphQL
 * Lombok
-* Scala
-* Substeps IntelliJ Plugin - https://github.com/Substeps/substeps-example
-* Test Automation Gears - https://plugins.jetbrains.com/plugin/13227-test-automation-gears
+* Scala - for performance testing with Karate.js
+* Test Automation Gears
+* You will be prompted, but DO NOT install 'Substeps IntelliJ Plugin'
 
 
 
