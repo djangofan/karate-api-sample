@@ -2,7 +2,7 @@
 Feature: Get All Users
 
   Background:
-    * url data.dev.url
+    * url data.url
     * configure report = { showAllSteps: true, showRequest: false, showResponse: false }
 
   Scenario: get all users and then get the first user by id

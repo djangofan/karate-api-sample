@@ -2,7 +2,7 @@
 Feature: Get All Todos
 
   Background:
-    * url data.dev.url
+    * url data.url
     * configure report = { showAllSteps: true, showRequest: false, showResponse: false }
 
   Scenario: get all todos and then get the first todo by id
