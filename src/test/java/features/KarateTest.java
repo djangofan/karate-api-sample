@@ -14,7 +14,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-@KarateOptions(tags = {"~@ignore"})
+@KarateOptions(tags = {"@jph", "~@ignore"})
 public class KarateTest {
 
     @BeforeAll
@@ -24,7 +24,7 @@ public class KarateTest {
 
     @Test
     public void runTestsInParallel() {
-        Results results = Runner.parallel(getClass(), 5);
+        Results results = Runner.parallel(getClass(), 1);
         generateReport(results.getReportDir());
         Assertions.assertTrue(results.getFailCount() == 0);
     }

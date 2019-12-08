@@ -17,4 +17,9 @@ Some IntelliJ-IDEA plugins you might want to install:
 * You will be prompted, but DO NOT install 'Substeps IntelliJ Plugin'
 
 
+## Report Karate Bug
+
+please follow this process, thanks: https://github.com/intuit/karate/wiki/How-to-Submit-an-Issue
+
+
 
