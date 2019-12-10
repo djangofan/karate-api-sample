@@ -11,6 +11,6 @@ function fn() {
     data: read("classpath:env-config.json")[thisEnv]
   };
 
-  karate.log("Karate config: " + config);
+  karate.log("Karate config: ", config);
   return config;
 }
