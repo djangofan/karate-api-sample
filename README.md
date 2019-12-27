@@ -1,4 +1,4 @@
-# api-karate
+# karate-api-sample
 
 API Testing Example
 
