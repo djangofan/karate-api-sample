@@ -11,16 +11,10 @@ import net.masterthought.cucumber.Configuration;
 import net.masterthought.cucumber.ReportBuilder;
 import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-@KarateOptions(tags = {"@jph", "~@ignore"})
+@KarateOptions(tags = {"@db", "~@ignore"})
 public class KarateTest {
-
-    @BeforeAll
-    public static void beforeAll() {
-        System.setProperty("karate.env", "dev");
-    }
 
     @Test
     public void runTestsInParallel() {
